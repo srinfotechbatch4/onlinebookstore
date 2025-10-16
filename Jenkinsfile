@@ -17,4 +17,13 @@ pipeline {
               	    }  
          	    } 
         }
+		
+		stages {  
+       	    stage("srinfotech build2") {  
+           	    steps {  
+              	    echo "cloning repository" 
+              	    echo "repo cloned successfully"  
+              	    }  
+         	    } 
+        }
 }
